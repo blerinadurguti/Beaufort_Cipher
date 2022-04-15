@@ -1,7 +1,8 @@
 ## Universiteti i Prishtinës - Fakulteti i Inxhinierisë Elektrike dhe Kompjuterike
 
 ## Detyra e dyte: Siguria e te dhenave
-# Beaufort_Cipher
+## Beaufort_Cipher
+Ky projekt eshte punuar ne dy gjuhe programuese, C++ dhe Python!
 
 <pre>Projekti eshte punuar nga:
 1. Blerina Beka
