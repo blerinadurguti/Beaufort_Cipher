@@ -1,6 +1,6 @@
 ## Universiteti i Prishtinës - Fakulteti i Inxhinierisë Elektrike dhe Kompjuterike
 
-# Detyra e dyte: Siguria e te dhenave
+## Detyra e dyte: Siguria e te dhenave
 # Beaufort_Cipher
 
 <pre>Projekti eshte punuar nga:
