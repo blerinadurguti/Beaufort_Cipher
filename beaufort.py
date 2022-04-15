@@ -30,3 +30,38 @@ def beaufortDecipher(key,message):
 		else:
 			decipher += ' '
 	return decipher
+
+def main():
+	while True:
+		try:
+			print("  (1)  Enkripto\t  (2)  Dekripto")
+			print("---------------------------------")
+			mode=input("Mode (1 ose 2) : ")
+	
+			if( mode == '1' ):
+				message = input("Plain Teksti    : ")
+				key = input("Celsi           : ")
+				cipher = beaufortCipher(key,message)
+				print("Cipher Teksti   :",cipher)
+				print("\n---------------------------------")
+						
+			if( mode == '2' ):
+				message = input("Cipher Teksti   : ")
+				key = input("Celsi           : ")
+				decipher = beaufortDecipher(key,message)
+				print("Plain Teksti    :",decipher)
+				print("\n---------------------------------")
+
+			if( mode != '1' and mode != '2' ):
+				print("\nZgjedhje e gabuar...\n")
+				print("---------------------------------")
+
+		except KeyboardInterrupt:
+			print("\n\nTung...")
+			break
+		except EOFError:
+			print("\n\nTung...")
+			break
+
+if __name__ == '__main__':
+	main()
